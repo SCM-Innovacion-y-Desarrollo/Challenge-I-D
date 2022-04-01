@@ -19,6 +19,7 @@ def encode_photo(data: BytesIO) -> list[list[float]]:
         )
     ]
 
+
 def match(test: list[float], enrollments: list[list[float]]):
     '''
         Takes one of the encodings returned by encode_photo
